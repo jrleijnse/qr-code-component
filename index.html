@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        background-color: #dbe4ff;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      .card-container {
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 1.6rem;
+        align-items: center;
+        margin: 50vh auto;
+        width: 35rem;
+        padding: 1.6rem;
+        flex-wrap: wrap;
+      }
+
+      .card-content-box {
+        width: 80%;
+        text-align: center;
+      }
+
+      .qr-code-img {
+        max-width: 100%;
+        margin-bottom: 2.4rem;
+        border-radius: 1.2rem;
+      }
+
+      .card-title {
+        font-size: 2.3rem;
+        font-weight: bold;
+        margin-bottom: 2.4rem;
+      }
+
+      .card-text {
+        font-size: 1.7rem;
+        margin-bottom: 2.4rem;
+        color: #999;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <img src="./images/image-qr-code.png" class="qr-code-img" />
+      <div class="card-content-box">
+        <h1 class="card-title">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="card-text">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/jrleijnse/">Jeroen Leijnse</a>.
+    </div>
+  </body>
+</html>
