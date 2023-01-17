@@ -34,13 +34,13 @@ body {
   flex-direction: column;
   border-radius: 1.6rem;
   align-items: center;
-  width: 35rem;
-  padding: 1.6rem;
+  width: 30rem;
+  padding: 1.5rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 }
 
 .card-content-box {
-  width: 80%;
+  width: 26rem;
   text-align: center;
 }
 
